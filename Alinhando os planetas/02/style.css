@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  aside, main {
+    height: 95vh;
+    background: lightgray;
+  }
+  
+  aside {
+    flex-basis: 25%;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
