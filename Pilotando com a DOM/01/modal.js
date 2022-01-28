@@ -1,7 +1,7 @@
-const openModalButton = document.getElementById('openModal')
-const modalWrapper = document.getElementsByClassName('.modal-wrapper')
+const openModalButton = document.querySelector('#openModal')
+const modalWrapper = document.querySelector('.modal-wrapper')
 
-openModalButton.onclick = function() {
+openModalButton.onclick = function() { 
     modalWrapper.classList.remove('invisible')
 }
 
